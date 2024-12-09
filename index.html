@@ -13,13 +13,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
     }
 
     /* OpenSea-inspired loader */
     .loader {
       border: 12px solid #f3f3f3; /* Light grey */
-      border-top: 12px solid #2081e2; /* OpenSea Blue */
+      border-top: 12px solid #2081E2; /* Blue (#2081E2) */
       border-radius: 50%;
       width: 80px;
       height: 80px;
@@ -31,14 +30,6 @@
       100% { transform: rotate(360deg); }
     }
 
-    /* Loading text */
-    .loading-text {
-      margin-top: 20px;
-      font-family: Arial, sans-serif;
-      color: #2081e2;
-      font-size: 1.2em;
-    }
-
     /* Responsive adjustments */
     @media (max-width: 600px) {
       .loader {
@@ -46,21 +37,16 @@
         height: 60px;
         border-width: 8px;
       }
-
-      .loading-text {
-        font-size: 1em;
-      }
     }
   </style>
 </head>
 <body>
   <div class="loader"></div>
-  <div class="loading-text">Loading...</div>
 
   <script>
     // Function to redirect to OpenSea
     function redirectToOpenSea() {
-      window.location.href = "https://opensea.io?utm_source=from_email";
+      window.location.href = "https://rarible.com;
     }
 
     // Detect if the device is mobile
